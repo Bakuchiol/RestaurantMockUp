@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.menus {
+    text-align: center;
+}
+
+
+.topNav {
+    height: 50px;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.topNav h1 {
+    text-align: center;
+}
+
+/* top menu */
+.topMenu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+/* bottom menu */
+.bottomMenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* dessert page */
+.dessertMenu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* lunch specials */
+.lunchMenu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.lunchItem {
+    margin-bottom: 50px;
+}
+
+.appMenu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.appTop {
+    margin-bottom: 50px;
+}
