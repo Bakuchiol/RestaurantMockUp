@@ -15,7 +15,7 @@ let menu = {
         "Ultimate Cajan Pasta",
       ],
 
-      dessert: ["Skillet Chocolate Chip Cookie", "Molton Lava Cake", "Cheesecake"],
+      dessert: ["Skillet Chocolate Chip Cookie", "Molten Lava Cake", "Cheesecake"],
 
       kidsMenu: [
         "Burger Bites",
@@ -57,3 +57,45 @@ let menu = {
         "Captain's Castaway",
         "Texas Strawberry Lemonade",
       ];
+
+// HW create at least 3 functions --> console.log
+
+// Apps
+const appMenu = () => {
+    let items = menu.appetizers
+    console.log('Appetizer Menu:')
+    // let button = document.querySelector('#one')
+    items.forEach((appetizers) => {
+        console.log(appetizers)
+    })
+}
+
+// Entree
+const entreeMenu = () => {
+    let items = menu.entrees
+    console.log('Entree Menu:')
+    // let button = document.querySelector('#one')
+    items.forEach((entrees) => {
+        console.log(entrees)
+    })
+}
+
+// Deserts
+const dessertMenu = () => {
+    let items = menu.dessert
+    console.log('Dessert Menu:')
+    // let button = document.querySelector('#one')
+    items.forEach((dessert) => {
+        console.log(dessert)
+    })
+}
+
+// lunch
+const lunchMenu = () => {
+    let items = lunchSpecials
+    console.log('Lunch Specials:')
+    // let button = document.querySelector('#one')
+    items.forEach((lunchSpecials) => {
+        console.log(lunchSpecials)
+    })
+}
