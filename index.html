@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <title>Restaurant Lab</title>
 </head>
@@ -34,28 +35,36 @@
             </div>
         </div>
         <!-- marquee? -->
-        <h2></h2>
+        <div class="marketing">
+            <span class="material-symbols-outlined map">pin_drop</span>
+            <p>Find a nearby Chili's</p>
+        </div>
+
+        <!-- title -->
+        <div class="titleMenu">
+            <h2>CHILI'S MENU</h2>
+            <br>
+            <p>Find everything from our Big Mouth Burgers<sup>&reg;</sup>,
+                our always sizzling, Full-on Fajitas and our famous Chicken Crispers<sup>&reg;</sup></p>
+        </div>
 
         <!-- top menu -->
         <div class="menus">
-        <section class="topMenu">
             <div class="apps">
                 <a href="apps.html">
-                    <img src="https://olo-images-live.imgix.net/11/117ba57cddc04cc5ab255cf60db3e6f6.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=ff609d550c88cc95dc4a4dea65bbacda" alt="" class="hors">
+                    <img src="https://olo-images-live.imgix.net/11/117ba57cddc04cc5ab255cf60db3e6f6.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=ff609d550c88cc95dc4a4dea65bbacda" alt="" class="">
                 </a>
                 <h3 id="h3" onclick="getAnyItem('Appetizers')">Appetizers</h3>
 
             </div>
             <div class="entree">
                 <a href="entree.html">
-                    <img src="https://olo-images-live.imgix.net/2c/2c87335e7bd544678865c2fd0a022627.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=f38a3909e10076fb51bca7b9cf4c56a7" alt="" class="main">
+                    <img src="https://olo-images-live.imgix.net/2c/2c87335e7bd544678865c2fd0a022627.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=f38a3909e10076fb51bca7b9cf4c56a7" alt="" class="">
                 </a>
                 <h3 onclick="getAnyItem('Entree')">Entree</h3>
             </div>
-        </section>
 
         <!-- bottom menu -->
-        <section class="bottomMenu">
             <div class="dessert">
                 <a href="dessert.html">
                 <img src="https://olo-images-live.imgix.net/40/40239c71c3e748069e9186e78bdff07f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=697af5751be53a2fafb09288c3fd0330" alt="">
@@ -65,11 +74,10 @@
 
             <div class="lunchSpecial">
                 <a href="lunchspecial.html">
-                <img src="https://olo-images-live.imgix.net/97/973fe5d4dac94f83862af52f298ada58.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=e0dd22625b850e8bdb2cbe8d647f78dc" alt="" class="lunchPic">
+                <img src="https://olo-images-live.imgix.net/97/973fe5d4dac94f83862af52f298ada58.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=e0dd22625b850e8bdb2cbe8d647f78dc" alt="" class="">
                 </a>
                 <h3 onclick="lunchMenu()">Lunch Specials</h3>
             </div>
-        </section>
         </div>
 
     <script src="chilis.js"></script>
