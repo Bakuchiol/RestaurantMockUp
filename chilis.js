@@ -61,30 +61,34 @@ let menu = {
 // HW create at least 3 functions --> console.log
 
 // Apps
-const appMenu = () => {
-    let items = menu.appetizers
-    console.log('Appetizer Menu:')
-    // let button = document.querySelector('#one')
-    items.forEach((appetizers) => {
-        console.log(appetizers)
-    })
+const getAnyItem = (bob) => {
+    if(bob === 'Appetizers') {
+        console.log(menu.appetizers)
+    } else if(bob === 'Entree'){
+        console.log(menu.entrees)
+    }
 }
+// const appMenu = () => {
+//     let items = menu.appetizers
+//     console.log('Appetizer Menu:')
+//     items.forEach((appetizers) => {
+//         console.log(appetizers)
+//     })
+// }
 
 // Entree
-const entreeMenu = () => {
-    let items = menu.entrees
-    console.log('Entree Menu:')
-    // let button = document.querySelector('#one')
-    items.forEach((entrees) => {
-        console.log(entrees)
-    })
-}
+// const entreeMenu = () => {
+//     let items = menu.entrees
+//     console.log('Entree Menu:')
+//     items.forEach((entrees) => {
+//         console.log(entrees)
+//     })
+// }
 
 // Deserts
 const dessertMenu = () => {
     let items = menu.dessert
     console.log('Dessert Menu:')
-    // let button = document.querySelector('#one')
     items.forEach((dessert) => {
         console.log(dessert)
     })
@@ -94,8 +98,10 @@ const dessertMenu = () => {
 const lunchMenu = () => {
     let items = lunchSpecials
     console.log('Lunch Specials:')
-    // let button = document.querySelector('#one')
     items.forEach((lunchSpecials) => {
         console.log(lunchSpecials)
     })
 }
+
+
+// console.log(menu.appetizers[1]);

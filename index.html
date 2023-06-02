@@ -8,16 +8,34 @@
     <title>Restaurant Lab</title>
 </head>
 <body>
-    <nav>
         <!-- header -->
         <div class="topNav">
             <a href="https://www.chilis.com/">
             <img src="chilis.svg" alt="" class="logo">
             </a>
-            <h1>Chili's</h1>
-    </nav>
+            <div class="brand">
+                <ul class="list">
+                    <li>REWARDS</li>
+                    <li>ORDER NOW</li>
+                    <li>MENU</li>
+                    <li>LOCATIONS</li>
+                    <li class="hide">
+                        <p>BONUS <br>
+                            GIFT CARDS</p>
+                    </li>
+                    <p>BONUS <br> GIFT CARDS</p>
+                    <li>CAREERS</li>
+                    <li>LOG IN</li>
+                </ul>
+            </div>
+            <div class="bagNav">
+                <p>0 ITEMS</p>
+                <img src="bag.svg" alt="" class="bag">
+            </div>
+        </div>
         <!-- marquee? -->
         <h2></h2>
+
         <!-- top menu -->
         <div class="menus">
         <section class="topMenu">
@@ -25,14 +43,14 @@
                 <a href="apps.html">
                     <img src="https://olo-images-live.imgix.net/11/117ba57cddc04cc5ab255cf60db3e6f6.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=ff609d550c88cc95dc4a4dea65bbacda" alt="" class="hors">
                 </a>
-                <h3 onclick="appMenu()">Appetizers</h3>
+                <h3 id="h3" onclick="getAnyItem('Appetizers')">Appetizers</h3>
 
             </div>
             <div class="entree">
                 <a href="entree.html">
                     <img src="https://olo-images-live.imgix.net/2c/2c87335e7bd544678865c2fd0a022627.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=f38a3909e10076fb51bca7b9cf4c56a7" alt="" class="main">
                 </a>
-                <h3 onclick="entreeMenu()">Entree</h3>
+                <h3 onclick="getAnyItem('Entree')">Entree</h3>
             </div>
         </section>
 
@@ -52,6 +70,7 @@
                 <h3 onclick="lunchMenu()">Lunch Specials</h3>
             </div>
         </section>
+        </div>
 
     <script src="chilis.js"></script>
 </body>
