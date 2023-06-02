@@ -60,7 +60,7 @@ let menu = {
 
 // HW create at least 3 functions --> console.log
 
-// Apps
+// Apps & Entree as array
 const getAnyItem = (bob) => {
     if(bob === 'Appetizers') {
         console.log(menu.appetizers)
@@ -85,7 +85,7 @@ const getAnyItem = (bob) => {
 //     })
 // }
 
-// Deserts
+// Deserts as list
 const dessertMenu = () => {
     let items = menu.dessert
     console.log('Dessert Menu:')
@@ -94,7 +94,7 @@ const dessertMenu = () => {
     })
 }
 
-// lunch
+// lunch as list
 const lunchMenu = () => {
     let items = lunchSpecials
     console.log('Lunch Specials:')
@@ -103,5 +103,17 @@ const lunchMenu = () => {
     })
 }
 
+// hidden clue
+const hiddenClue = () => {
+    let clue = document.querySelector('#clue')
+    clue.replaceWith('What occurs once in a minute, twice in a moment, and never in 1,000 years?')
+}
 
-// console.log(menu.appetizers[1]);
+
+// const promo = document.querySelector('.couponCode')
+
+// document.querySelector('#hiddenClue').addEventListener('click', clue)
+
+// const clue = () => {
+//     promo.classList.toggle('hidden')
+// }

@@ -37,12 +37,12 @@
         <!-- marquee? -->
         <div class="marketing">
             <span class="material-symbols-outlined map">pin_drop</span>
-            <p>Find a nearby Chili's</p>
+            <p  id="clue" onclick="hiddenClue()">Find a nearby Chili's</p>
         </div>
 
         <!-- title -->
         <div class="titleMenu">
-            <h2>CHILI'S MENU</h2>
+            <h2>CHILI'S <span id="hiddenClue" onclick="hiddenCode()">M</span>ENU</h2>
             <br>
             <p>Find everything from our Big Mouth Burgers<sup>&reg;</sup>,
                 our always sizzling, Full-on Fajitas and our famous Chicken Crispers<sup>&reg;</sup></p>
@@ -79,6 +79,7 @@
                 <h3 onclick="lunchMenu()">Lunch Specials</h3>
             </div>
         </div>
+    <div class="couponCode">#FREE FOOD FOR LIFE</div>
 
     <script src="chilis.js"></script>
 </body>

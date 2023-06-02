@@ -84,6 +84,7 @@ img {
 }
 .marketing p {
     padding-top: 6px;
+    cursor: pointer;
 }
 /* title area */
 .titleMenu {
@@ -96,6 +97,9 @@ img {
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: .1em;
+}
+#hiddenClue {
+    cursor: pointer;
 }
 .titleMenu p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -154,4 +158,13 @@ img {
 
 .lunchItem {
     margin-bottom: 50px;
+}
+
+.couponCode {
+    display: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
 }
