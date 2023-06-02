@@ -107,13 +107,20 @@ const lunchMenu = () => {
 const hiddenClue = () => {
     let clue = document.querySelector('#clue')
     clue.replaceWith('What occurs once in a minute, twice in a moment, and never in 1,000 years?')
-}
+};
 
-
-// const promo = document.querySelector('.couponCode')
-
-// document.querySelector('#hiddenClue').addEventListener('click', clue)
-
-// const clue = () => {
-//     promo.classList.toggle('hidden')
+// const show = () => {
+//     let clue = document.querySelector('#couponCode');
+//     if(clue.style.display === 'none'){
+//         clue.style.display = 'block';
+//     } else {
+//         clue.style.display = 'none';
+//     }
 // }
+
+//
+document.querySelector('#hiddenClue').addEventListener('click', show)
+
+function show() {
+    document.querySelector('#couponCode').style.display = 'block'
+}
